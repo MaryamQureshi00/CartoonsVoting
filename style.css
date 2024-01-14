@@ -1,0 +1,26 @@
+ body {
+    background-image:url(./cloudBack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    /* opacity: 0.1; */
+    margin: 0;
+    height: 100vh;
+}
+
+
+.app-title{
+   color: rgb(73, 27, 115);
+}
+
+.mainDiv{
+display: flex;
+}
+
+.voteBtn{
+    /* margin-top: 9px; */
+    width: 200px;
+    background-color:#F1C2D9 ;
+    color: rgb(73, 27, 115) ;
+}
+

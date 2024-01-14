@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoons</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+</head>
+
+<body>
+
+    <center>
+        <h1 class="app-title"> "Rekindle your childhood and like your favorite cartoons from it."</h1>
+    </center>
+    
+    <div class="container mt-5 mainDiv">
+        <div class=" mr-5  card">
+            <img src="./Tom and Jerry.webp" class="images" onMouseover="src= './Tom & Jerry.jpg'" onMouseout="src= './Tom and Jerry.webp'"  height="300" width="200">
+            <button id="voteCount_option1" class="voteBtn" onclick="like('option1')">Like : 0  </button>
+        </div>
+
+        <div class=" mr-5 card">
+            <img src="./We bare bear.png" class="images" onMouseover="src= './We bare bear 2.jpg'" onMouseout="src= './We bare bear.png'" alt="" height="300" width="200">
+            <button id="voteCount_option2" class="voteBtn" onclick="like('option2')">Like : 0</button>
+        </div>
+
+        <div class=" mr-5 card">
+            <img src="./oggy and the coackroches.jpg" class="images" onMouseover="src= './Oggy.webp'" onMouseout="src= './oggy and the coackroches.jpg'" alt="" height="300" width="200">
+            <button id="voteCount_option3" class="voteBtn" onclick="like('option3')">Like : 0</button>
+        </div>
+
+        <div class="card">
+            <img src="./Looney tunnes cartoon.webp" class="images" onMouseover="src= './Looney tunes.jpg'" onMouseout="src= './Looney tunnes cartoon.webp'" alt="" height="300" width="200">
+            <button id="voteCount_option4" class="voteBtn" onclick="like('option4')">Like : 0</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
